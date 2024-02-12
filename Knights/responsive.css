@@ -1,0 +1,66 @@
+@media only screen and (max-width: 320px) {
+    .head2 {
+        font-size: 30px;
+        padding-right: 275px;
+        letter-spacing: 2px;
+        margin-top: -22px;
+        padding-left: 0px;
+    }
+    .head1 {
+        font-size: 60px;
+    }
+    .san h1 {
+        margin-left: 0px;
+        font-size: 14px;
+        margin-top: 22px;
+
+    }
+    .coming::after{
+        right: 10px;
+    }
+    .coming h6 {
+        margin-top: -77px;
+        font-size: 10px;
+        position: absolute;
+        z-index: 2;
+        right: 15px;
+    }
+    .about{
+        margin-left: 86px;
+        margin-top: -80px;
+    }
+
+    .about a{
+        margin-left: 68px;
+        font-size: 11px;
+    }
+
+    .coming::after {
+        height: 18vmin;
+        width: 24vmin
+    }
+
+    .line {
+        background-color: white;
+        width: 35%;
+        height: 4px;
+        position: absolute;
+        right: 0px;
+        top: 213.2px;
+    }
+
+    .sec1{
+        background-image: url(proimage/folio_bg1.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img1 img{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1366px){
+
+}
